@@ -1,0 +1,53 @@
+ ul.hor {
+           list-style-type: none;
+           margin:0px;
+           padding:0;
+           background-color: rgb(6, 246, 130);
+           overflow:hidden; /*height of the ul is 0. this is get the li into the ul*/
+           height:30px;           
+        }
+        ul.hor li {
+            float:right;
+            height:inherit;
+            padding: 5px;          
+
+        }    
+
+        ul.hor li a {
+            color: rgb(0, 0, 0);
+            padding:8px;
+            text-decoration: none;
+                                          
+        }
+        ul.hor li:hover {
+            background-color: rgba(98, 123, 31, 0.5) ;
+        }
+
+       
+        /* vertical nav bar */
+        ul.ver {
+            list-style-type: none;
+            margin:0px;
+            padding:0px;
+            width:200px; /* width is specified because it will take the whole screen width*/
+            background-color: rgb(133, 0, 128);            
+        }
+
+    
+        div.sidebar {
+            width:200px;
+        }
+        ul.ver li a {
+            display:block;
+            color:bisque;
+            padding:5%; 
+            text-align:center; 
+            text-decoration: none;          
+        }
+
+        ul.ver li:hover {
+            background-color: rgba(98, 123, 31, 0.5) ;
+        }
+        div.sidebar,p {
+            float:left;
+        }
