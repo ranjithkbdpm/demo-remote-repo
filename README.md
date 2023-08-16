@@ -10,3 +10,6 @@ this for learning git step by step.
 
 now this line added to understand GitHub. lets create remote repo using github and push,pull your local repo.
 now lets understand pull to make changes directly into local without fetch and merge steps.
+
+
+this line is to added in the update-readme branch and pushed to remote repo and merged there.
