@@ -13,3 +13,5 @@ now lets understand pull to make changes directly into local without fetch and m
 
 
 this line is to added in the update-readme branch and pushed to remote repo and merged there.
+
+This line is added to understand how to push branch from local to remote and merge there. let see the change happened in the local master.
